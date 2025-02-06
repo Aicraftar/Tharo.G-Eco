@@ -26,29 +26,15 @@ Training Examples
 Here are examples demonstrating how to utilize Tharo.G-Eco for various tasks:
 
 1. Basic Chat Completion
-bash
-Copy
-1
-2
-3
-4
+
 curl -X POST https://aicraftar.com/api/chat/completions \
 -H "Authorization: Bearer YOUR_API_KEY" \
 -H "Content-Type: application/json" \
 -d '{"model": "Tharo.G-Eco", "messages": [{"role": "user", "content": "Hello, how are you?"}]}'
+
+
 2. RAG-Enhanced Chat with File
-bash
-Copy
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+
 curl -X POST https://aicraftar.com/api/chat/completions \
 -H "Authorization: Bearer YOUR_API_KEY" \
 -H "Content-Type: application/json" \
@@ -59,19 +45,12 @@ curl -X POST https://aicraftar.com/api/chat/completions \
     "file": "geography.json" 
   } 
 }'
+
+
+
 3. OCR-Enhanced Task
-bash
-Copy
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+
+
 curl -X POST https://aicraftar.com/api/chat/completions \
 -H "Authorization: Bearer YOUR_API_KEY" \
 -H "Content-Type: application/json" \
@@ -82,7 +61,9 @@ curl -X POST https://aicraftar.com/api/chat/completions \
     {"role": "system", "content": "Extract text from the image and answer questions about it."} 
   ] 
 }'
+
+
 Conclusion
 Tharo.G-Eco is a powerful and cost-effective solution for developers seeking high performance in conversational AI tasks. With its advanced RAG capabilities , OCR integration , and superior efficiency , it outperforms competitors like GPT-4 or Mini, making it the ideal choice for a wide range of applications.
 
-For more information, visit our website or contact us at Aicraftar .
+For more information, visit our website or contact us at Aicraftar www.aicraftar.com.
