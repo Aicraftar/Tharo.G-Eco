@@ -1,4 +1,5 @@
 # Tharo.G-Eco
+![Tharo G-Eco Model Benchmark and Task test](https://github.com/user-attachments/assets/eb897e0b-035e-464e-b176-d7bcb8a55638)
 
 README: Tharo.G-Eco Model
 Introduction
